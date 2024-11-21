@@ -1,0 +1,153 @@
+.fs-4 {
+  text-align: left;
+  margin-left: 0;
+  padding-right: 2em;
+}
+
+:root {
+  /* primary colors */
+  --first-clr1: #092635;
+  --sencond-clr1: #1b4242;
+  --third-clr1: #5c8374;
+  --forth-clr1: #9ec8b9;
+
+  /* secondary colors */
+  --first-clr2: #003c43;
+  --sencond-clr2: #135d66;
+  --third-clr2: #77b0aa;
+  --forth-clr2: #e3fef7;
+
+  /* tertiary  colors */
+  --first-clr3: #071952;
+  --sencond-clr3: #0b666a;
+  --third-clr3: #35a29f;
+  --forth-clr3: #97feed;
+}
+body {
+  overflow-x: none;
+}
+
+footer {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.fs-4 {
+  text-align: left;
+  margin-left: 0;
+  padding-right: 2em;
+}
+.heading1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 7vh;
+}
+h2 {
+  font-weight: 500;
+}
+#img {
+  display: block;
+  align-items: center;
+  height: auto;
+  box-shadow: 2px 5px 3px solid skyblue;
+}
+img {
+  border: 4px solid #2196f3;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: auto;
+  width: 25vw;
+  margin: auto;
+  float: left;
+  margin: 0 20px;
+}
+#img:hover {
+  scale: 1.2;
+  transition: 0.3s;
+}
+
+.p1 {
+  padding-left: 20px;
+}
+
+/* .active,
+.nav-item:hover {
+  background-color: #666;
+  color: white;
+} */
+.dark-mode {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#togglebtn {
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin-right: 20px;
+}
+#togglebtn:hover{
+  color: #fff;
+  background-color: #000;
+}
+@media (min-width: 601px) {
+  .w3-col.m4,
+  .w3-third {
+    width: auto;
+  }
+}
+.w3-third.w3-row-padding {
+  width: auto;
+}
+.w3-third {
+  text-align: left;
+  padding: 20px;
+}
+.inputbtn {
+  border: 1px solid #003c43;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: #2196f3;
+  color: white;
+}
+.inputbtn:hover {
+  /* background: #2196f3; */
+  background: #0b666a;
+  color: white;
+  transition: 0.3 ease;
+  scale: 0.8;
+}
+
+.nabbar {
+  text-align: center;
+  margin-right: 20px;
+}
+.nabbar a:hover {
+  text-align: center;
+  margin-right: 20px;
+  text-decoration: underline;
+  color: goldenrod;
+  transition: 0.4s ease-in-out;
+  font-weight: 700;
+}
+ul a {
+  text-decoration: none;
+  padding-left: 0.8em;
+}
+
+/* #2196F3 !important */

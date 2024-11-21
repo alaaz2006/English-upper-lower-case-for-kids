@@ -1,0 +1,259 @@
+.fs-4 {
+  text-align: left;
+  margin-left: 0;
+  padding-right: 2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* primary colors */
+  --first-clr1: #092635;
+  --sencond-clr1: #1b4242;
+  --third-clr1: #5c8374;
+  --forth-clr1: #9ec8b9;
+
+  /* secondary colors */
+  --first-clr2: #003c43;
+  --sencond-clr2: #135d66;
+  --third-clr2: #77b0aa;
+  --forth-clr2: #e3fef7;
+
+  /* tertiary  colors */
+  --first-clr3: #071952;
+  --sencond-clr3: #0b666a;
+  --third-clr3: #35a29f;
+  --forth-clr3: #97feed;
+}
+
+h1 {
+  margin-top: 50px;
+  color: #003c43;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.ABCD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  width: 1000px;
+  height: 1000px;
+  padding: 10px;
+}
+.container :hover {
+  font-size: 70px;
+  background-color: rgb(176, 91, 91);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  font-size: 0%;
+}
+.Aa:hover {
+  background-image: url("/Assets/Images/a\ for\ apple1.jpg");
+  background-size: cover;
+}
+.Bb:hover {
+  background-image: url("/assets/Images/B\ for\ Ball.jpg");
+  background-size: cover;
+}
+.Cc:hover {
+  background-image: url("/assets/Images/C\ for\ Car.jfif");
+  background-size: cover;
+}
+.Dd:hover {
+  background-image: url("/assets/Images/D\ for\ Dog.jpg");
+  background-size: cover;
+}
+.Ee:hover {
+  background-image: url("/assets/Images/E\ for\ Egg.jpg");
+  background-size: cover;
+}
+.Ff:hover {
+  background-image: url("/assets/Images/F\ for\ Fish.jpg");
+  background-size: cover;
+}
+.Gg:hover {
+  background-image: url("/assets/Images/G\ for\ Giraffe.jpg");
+  background-size: cover;
+}
+.Hh:hover {
+  background-image: url("/assets/Images/H\ for\ Hat.jpg");
+  background-size: cover;
+}
+.Ii:hover {
+  background-image: url("/assets/Images/Ice\ cream\ vector.jpg");
+  background-size: cover;
+}
+.Jj:hover {
+  background-image: url("/assets/Images/J\ for\ Juice.jpg");
+  background-size: cover;
+}
+.Kk:hover {
+  background-image: url("/assets/Images/K\ for\ kite.jpg");
+  background-size: cover;
+}
+.Ll:hover {
+  background-image: url("/assets/Images/L\ for\ Lemon.jpg");
+  background-size: cover;
+}
+.Mm:hover {
+  background-image: url("/assets/Images/M\ for\ Mango.jpg");
+  background-size: cover;
+}
+.Nn:hover {
+  background-image: url("/assets/Images/N\ for\ Nest.jpg");
+  background-size: cover;
+}
+.Oo:hover {
+  background-image: url("/assets/Images/O\ for\ Orange.jpg");
+  background-size: cover;
+}
+.Pp:hover {
+  background-image: url("/assets/Images/P\ for\ Peach.jpg");
+  background-size: cover;
+}
+.Qq:hover {
+  background-image: url("/assets/Images/Q\ for\ Queen.jpg");
+  background-size: cover;
+}
+.Rr:hover {
+  background-image: url("/assets/Images/R\ for\ Rabbit\ \(1\).jpg");
+  background-size: cover;
+}
+.Ss:hover {
+  background-image: url("/assets/Images/S\ for\ Sun\ \(2\).jpg");
+  background-size: cover;
+}
+.Tt:hover {
+  background-image: url("/assets/Images/T\ for\ Tiger\ \(2\).jpg");
+  background-size: cover;
+}
+.Uu:hover {
+  background-image: url("/assets/Images/U\ for\ Umbrella.jpg");
+  background-size: cover;
+}
+.Vv:hover {
+  background-image: url("/assets/Images/V\ for\ Violin.jpg");
+  background-size: cover;
+}
+.Ww:hover {
+  background-image: url("/assets/Images/W\ for\ Wolf.jpg");
+  background-size: cover;
+}
+.Xx:hover {
+  background-image: url("/assets/Images/X\ for\ xylophone.jpg");
+  background-size: cover;
+}
+.Yy:hover {
+  background-image: url("/assets/Images/Y\ for\ Yoyo.jpg");
+  background-size: cover;
+}
+.Zz:hover {
+  background-image: url("/assets/Images/Z\ for\ Zebra.jpg");
+  background-size: cover;
+}
+.ET:hover {
+  background-image: url("/assets/Images/Ethiopian\ Flag.jpg");
+  background-size: cover;
+}
+
+.abc {
+  justify-content: space-evenly;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.myLetter {
+  font-size: 50px;
+  background-color: #0b666a;
+  color: white;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 6px solid #06656a;
+  border-radius: 10px;
+  /* margin-left: 45px; */
+}
+.myLetter:hover {
+  box-shadow: 2px 1.5px #66b798;
+  box-shadow: 5px 10px 18px #06656a;
+  color: #135d66;
+  scale: 1.5;
+  transition: 0.35s ease-in-out;
+}
+#myAudio {
+  margin-top: 90px;
+  width: 200px;
+  height: 30px;
+}
+#myAudio:hover {
+  background: transparent;
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 150px;
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 50px;
+  }
+}
+@media (min-width: 375px) {
+  .container {
+    width: 300px;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5px;
+  }
+}
+@media (min-width: 425px) {
+  .container {
+    width: 300px;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 620px;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px;
+    gap: 80px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 5px;
+    gap: 80px;
+  }
+}

@@ -1,0 +1,697 @@
+.fs-4 {
+  text-align: left;
+  margin-left: 0;
+  padding-right: 2em;
+}
+
+:root {
+  /* primary colors */
+  --first-clr1: #092635;
+  --sencond-clr1: #1b4242;
+  --third-clr1: #5c8374;
+  --forth-clr1: #9ec8b9;
+
+  /* secondary colors */
+  --first-clr2: #003c43;
+  --sencond-clr2: #135d66;
+  --third-clr2: #77b0aa;
+  --forth-clr2: #e3fef7;
+
+  /* tertiary  colors */
+  --first-clr3: #071952;
+  --sencond-clr3: #0b666a;
+  --third-clr3: #35a29f;
+  --forth-clr3: #97feed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, rgb(222, 90, 90), rgb(255, 217, 0));
+  margin: 30px;
+} */
+.heading1 {
+  margin-top: 50px;
+  color: #003c43;
+  font-size: 8vh;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.container :hover {
+  font-size: 73px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.ET:hover {
+  background-image: url(/Assets/Images/Ethiopian\ Flag.jpg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm0:hover {
+  background-image: url(/Assets/Images/0.jfif.jpg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm1:hover {
+  background-image: url(/Assets/Images/1_1_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm2:hover {
+  background-image: url(/Assets/Images/2_2_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm3:hover {
+  background-image: url(/Assets/Images/3_3_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm4:hover {
+  background-image: url(/Assets/Images/4_4_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm5:hover {
+  background-image: url(/Assets/Images/5_5_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm6:hover {
+  background-image: url(/Assets/Images/6_6_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm7:hover {
+  background-image: url(/Assets/Images/7_7_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm8:hover {
+  background-image: url(/Assets/Images/8_8_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm9:hover {
+  background-image: url(/Assets/Images/9_9_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm10:hover {
+  background-image: url(/Assets/Images/10_10_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm11:hover {
+  background-image: url(/Assets/Images/11_11_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm12:hover {
+  background-image: url(/Assets/Images/12_12_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm13:hover {
+  background-image: url(/Assets/Images/13_13_11zon.png);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm14:hover {
+  background-image: url(/Assets/Images/14_14_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm15:hover {
+  background-image: url(/Assets/Images/15_15_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm16:hover {
+  background-image: url(/Assets/Images/16_16_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm17:hover {
+  background-image: url(/Assets/Images/17_17_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm18:hover {
+  background-image: url(/Assets/Images/18_18_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm19:hover {
+  background-image: url(/Assets/Images/19_19_11zon.png);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm20:hover {
+  background-image: url(/Assets/Images/20_20_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm21:hover {
+  background-image: url(/Assets/Images/21_21_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm22:hover {
+  background-image: url(/Assets/Images/22_22_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm23:hover {
+  background-image: url(/Assets/Images/23_23_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm24:hover {
+  background-image: url(/Assets/Images/24_24_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm25:hover {
+  background-image: url(/Assets/Images/25_25_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm26:hover {
+  background-image: url(/Assets/Images/26_26_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm27:hover {
+  background-image: url(/Assets/Images/27_27_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm28:hover {
+  background-image: url(/Assets/Images/28_28_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm29:hover {
+  background-image: url(/Assets/Images/29_29_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm30:hover {
+  background-image: url(/Assets/Images/30_30_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm31:hover {
+  background-image: url(/Assets/Images/31_1_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm32:hover {
+  background-image: url(/Assets/Images/32_2_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm33:hover {
+  background-image: url(/Assets/Images/33_3_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm34:hover {
+  background-image: url(/Assets/Images/34_4_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm35:hover {
+  background-image: url(/Assets/Images/35_5_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm36:hover {
+  background-image: url(/Assets/Images/36_6_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm37:hover {
+  background-image: url(/Assets/Images/37_7_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm38:hover {
+  background-image: url(/Assets/Images/38_8_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm39:hover {
+  background-image: url(/Assets/Images/39_9_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm40:hover {
+  background-image: url(/Assets/Images/40_10_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm41:hover {
+  background-image: url(/Assets/Images/41_11_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm42:hover {
+  background-image: url(/Assets/Images/42_12_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm43:hover {
+  background-image: url(/Assets/Images/43_13_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm44:hover {
+  background-image: url(/Assets/Images/44_14_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm45:hover {
+  background-image: url(/Assets/Images/45_15_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm46:hover {
+  background-image: url(/Assets/Images/46_16_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm47:hover {
+  background-image: url(/Assets/Images/47_17_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm48:hover {
+  background-image: url(/Assets/Images/48_18_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm49:hover {
+  background-image: url(/Assets/Images/49_19_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm50:hover {
+  background-image: url(/Assets/Images/50.jfif);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm51:hover {
+  background-image: url(/Assets/Images/51_1_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm52:hover {
+  background-image: url(/Assets/Images/52_2_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm53:hover {
+  background-image: url(/Assets/Images/53_3_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm54:hover {
+  background-image: url(/Assets/Images/54_4_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm55:hover {
+  background-image: url(/Assets/Images/55_5_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm56:hover {
+  background-image: url(/Assets/Images/56_6_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm57:hover {
+  background-image: url(/Assets/Images/57_7_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm58:hover {
+  background-image: url(/Assets/Images/58_8_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm59:hover {
+  background-image: url(/Assets/Images/59_9_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm60:hover {
+  background-image: url(/Assets/Images/60_10_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm61:hover {
+  background-image: url(/Assets/Images/61_11_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm62:hover {
+  background-image: url(/Assets/Images/62_12_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm63:hover {
+  background-image: url(/Assets/Images/63_13_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm64:hover {
+  background-image: url(/Assets/Images/64_14_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm65:hover {
+  background-image: url(/Assets/Images/65_15_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm66:hover {
+  background-image: url(/Assets/Images/66_16_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm67:hover {
+  background-image: url(/Assets/Images/67_17_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm68:hover {
+  background-image: url(/Assets/Images/68_18_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm69:hover {
+  background-image: url(/Assets/Images/69_19_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm70:hover {
+  background-image: url(/Assets/Images/70_20_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm71:hover {
+  background-image: url(/Assets/Images/71_1_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm72:hover {
+  background-image: url(/Assets/Images/72_2_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm73:hover {
+  background-image: url(/Assets/Images/73_3_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm74:hover {
+  background-image: url(/Assets/Images/74_4_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm75:hover {
+  background-image: url(/Assets/Images/75_5_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm76:hover {
+  background-image: url(/Assets/Images/76_6_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm77:hover {
+  background-image: url(/Assets/Images/77_7_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm78:hover {
+  background-image: url(/Assets/Images/78_8_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm79:hover {
+  background-image: url(/Assets/Images/79_9_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm80:hover {
+  background-image: url(/Assets/Images/80_10_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm81:hover {
+  background-image: url(/Assets/Images/81_11_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm82:hover {
+  background-image: url(/Assets/Images/82_12_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm83:hover {
+  background-image: url(/Assets/Images/83_13_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm84:hover {
+  background-image: url(/Assets/Images/84_14_11zon.png);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm85:hover {
+  background-image: url(/Assets/Images/85_15_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm30:hover {
+  background-image: url(/Assets/Images/30_30_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm86:hover {
+  background-image: url(/Assets/Images/86_16_11zon.png);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm87:hover {
+  background-image: url(/Assets/Images/87_17_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm88:hover {
+  background-image: url(/Assets/Images/88_18_11zon.png);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm89:hover {
+  background-image: url(/Assets/Images/89_19_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm90:hover {
+  background-image: url(/Assets/Images/90_20_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm91:hover {
+  background-image: url(/Assets/Images/91_21_11zon.png);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm30:hover {
+  background-image: url(/Assets/Images/30_30_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm92:hover {
+  background-image: url(/Assets/Images/92_22_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm93:hover {
+  background-image: url(/Assets/Images/93_23_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm30:hover {
+  background-image: url(/Assets/Images/30_30_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm30:hover {
+  background-image: url(/Assets/Images/30_30_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm94:hover {
+  background-image: url(/Assets/Images/94_24_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm95:hover {
+  background-image: url(/Assets/Images/95_25_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm96:hover {
+  background-image: url(/Assets/Images/96_26_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm97:hover {
+  background-image: url(/Assets/Images/97_27_11zon.png);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm98:hover {
+  background-image: url(/Assets/Images/98_28_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm99:hover {
+  background-image: url(/Assets/Images/99_29_11zon.png);
+  background-size: cover;
+  font-size: 0%;
+}
+.nm100:hover {
+  background-image: url(/Assets/Images/100_30_11zon.jpeg);
+  background-size: cover;
+  font-size: 0%;
+}
+section {
+  /* display: flex; */
+  align-items: center;
+}
+
+/* .header {
+  display: block;
+  width: 100%;
+} */
+/* .footer {
+  display: block;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+} */
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.myNumbers {
+  font-size: 9vh;
+  background-color: #0b666a;
+  color: white;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 6px solid #06656a;
+  border-radius: 10px;
+
+  /* margin-left: 45px; */
+}
+.myNumbers:hover {
+  box-shadow: 5px 10px 18px #06656a;
+  color: #135d66;
+  scale: 1.5;
+  transition: 0.35s ease-in-out;
+}
+#myAudio {
+  margin-top: 90px;
+  width: 200px;
+  height: 30px;
+}
+#myAudio:hover {
+  background: transparent;
+}
+.nav-item {
+  border-color: #003c43;
+  color: #9ec8b9;
+}
+.nav-item.active {
+  background-color: #4caf50;
+}
+@media (max-width: 375px) {
+  .container {
+    width: auto;
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 5px;
+  }
+}
+@media (min-width: 425px) {
+  .container {
+    width: 300px;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin: 50px; */
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 620px;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin: 5px; */
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px;
+    gap: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 5px;
+    grid-gap: 30px;
+  }
+}

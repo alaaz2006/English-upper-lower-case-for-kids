@@ -1,0 +1,140 @@
+/* HiMe style */
+:root {
+  /* primary colors */
+  --first-clr1: #092635;
+  --sencond-clr1: #1b4242;
+  --third-clr1: #5c8374;
+  --forth-clr1: #9ec8b9;
+
+  /* secondary colors */
+  --first-clr2: #003c43;
+  --sencond-clr2: #135d66;
+  --third-clr2: #77b0aa;
+  --forth-clr2: #e3fef7;
+
+  /* tertiary  colors */
+  --first-clr3: #071952;
+  --sencond-clr3: #0b666a;
+  --third-clr3: #35a29f;
+  --forth-clr3: #97feed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: lightcyan; */
+
+  background: linear-gradient(45deg, rgb(222, 90, 90), rgb(255, 217, 0, 0.8));
+  background-size: auto;
+  /* background-image: url(/Assets/Images/nardi5.jpg); */
+
+  /* opacity: 0.8; */
+}
+#header-section {
+  height: 200px;
+}
+#hero-section {
+  height: 400px;
+}
+#footer-section {
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+#myH1 {
+  margin-top: 50px;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* alaaz style */
+#hero-section {
+  display: flex;
+  gap: 20px;
+  color: #fff;
+  padding-top: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.mybtn {
+  height: 30px;
+  width: 300px;
+  font-size: 20px;
+  background: linear-gradient(90deg, rgb(56, 103, 99), rgb(255, 217, 0));
+  color: #fff;
+  list-style: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+.mybtn:hover {
+  transform: scale(1.2);
+  transition: 0.25s ease-in-out;
+  border-radius: 25px;
+  text-shadow: 3px 2px 5px blue;
+  border: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 320px) {
+  #myH1 {
+    font-size: 44px;
+    margin: 30px 5px 0 5px;
+  }
+  #footer-section {
+    margin: 5px;
+  }
+  .mybtn {
+    width: 250px;
+  }
+}
+@media (min-width: 320px) {
+  #myH1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 375px) {
+  #myH1 {
+    font-size: 60px;
+    margin: 30px 5px 0 5px;
+  }
+}
+@media (min-width: 376px) {
+  #myH1 {
+    font-size: 55px;
+  }
+}
+@media (min-width: 768px) {
+  #myH1 {
+    font-size: 80px;
+    margin: 30px 5px 0 5px;
+  }
+}
+@media (min-width: 1024px) {
+  #myH1 {
+    font-size: 100px;
+    margin: 30px 5px 0 5px;
+  }
+}

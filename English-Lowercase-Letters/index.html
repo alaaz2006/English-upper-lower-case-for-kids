@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>English Lowercase Letters</title>
+  </head>
+  <body>
+    <div class="header" style="box-shadow: 5px 10px 18px #06656a">
+      <header
+        style="width: 100%"
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4"
+            ><strong><span>Alaazar</span></strong></span
+          >
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link active" aria-current="page"
+              >Home</a
+            >
+          </li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link">Features</a></li> -->
+          <li class="nav-item">
+            <a href="/Project/project..html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="/About/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="/Contact/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <h1>Small letters</h1>
+    <section>
+      <div class="container">
+        <div class="a myLetter">a</div>
+        <div class="b myLetter">b</div>
+        <div class="c myLetter">c</div>
+        <div class="d myLetter">d</div>
+        <div class="e myLetter">e</div>
+        <div class="f myLetter">f</div>
+        <div class="g myLetter">g</div>
+        <div class="h myLetter">h</div>
+        <div class="i myLetter">i</div>
+        <div class="j myLetter">j</div>
+        <div class="k myLetter">k</div>
+        <div class="l myLetter">l</div>
+        <div class="m myLetter">m</div>
+        <div class="n myLetter">n</div>
+        <div class="o myLetter">o</div>
+        <div class="p myLetter">p</div>
+        <div class="q myLetter">q</div>
+        <div class="r myLetter">r</div>
+        <div class="s myLetter">s</div>
+        <div class="t myLetter">t</div>
+        <div class="u myLetter">u</div>
+        <div class="v myLetter">v</div>
+        <div class="w myLetter">w</div>
+        <div class="x myLetter">x</div>
+        <div class="y myLetter">y</div>
+        <div class="z myLetter">z</div>
+
+        <div class="ET myLetter">
+          ETH
+
+          <audio id="myAudio" controls>
+            <source src="/Assets/Sounds/ETHnantum.mp3" type="audio/ogg" />
+
+            <button id="audiobtn" onclick="myFunction()"></button>
+          </audio>
+        </div>
+      </div>
+    </section>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+        </li>
+        <li class="nav-item">
+          <!-- <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a> -->
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">
+        © 2024 Alaazar Haimanot.All Rights Reserved
+      </p>
+    </footer>
+
+    <script src="index.js" charset="UTF-8" type="text/javascript">
+            function myFunction() {
+        var x = document.getElementById("myAudio").duration;
+        document.getElementById("demo").innerHTML = x;
+      }
+    </script>
+  </body>
+</html>
